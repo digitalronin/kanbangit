@@ -17,5 +17,5 @@ const history = createBrowserHistory();
 render(
   <Provider store={store}>
     <Router history={history} routes={routes} />
-  </Provider>, document.getElementById('app')
+  </Provider>, document.getElementById('root')
 );
